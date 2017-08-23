@@ -32,6 +32,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'guard-minitest'
+gem 'minitest-reporters'
+gem 'guard'
 
 group :development, :test do
   gem 'sqlite3'
