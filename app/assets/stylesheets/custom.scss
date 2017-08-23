@@ -1,0 +1,50 @@
+@import "materialize/components/color";
+$primary-color: color("green", "darken-3") !default;
+$secondary-color: color("purple", "base") !default;
+@import "materialize";
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+#logo {
+  float: left;
+  margin-left: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight:bold;
+}
+
+#logo:hover {
+  color: desaturate($primary-color-light, 40);
+  text-decoration: none;
+}
+
+img {
+  display: none;
+}
