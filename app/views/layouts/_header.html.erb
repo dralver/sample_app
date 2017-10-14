@@ -1,0 +1,14 @@
+<header class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><%= link_to 'SAMPLE APP', '#', id: 'logo' %></a>
+      <a href="#" data-activates="hamburger" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <%= render 'layouts/nav' %>
+      </ul>
+      <ul class="side-nav" id="hamburger">
+        <%= render 'layouts/nav' %>s
+      </ul>
+    </div>
+  </nav>
+</header>
